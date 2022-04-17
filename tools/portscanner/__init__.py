@@ -3,7 +3,7 @@ from typing import Union as __Union
 from IPy import IP  as __IP
 import time as __time
 
-__port_list = [21, 22, 23, 25, 80, 110, 143, 443]
+__port_list = [21, 22, 23, 25, 80, 106, 110, 143, 443]
 
 def __validate_ip(ip):
   try:
